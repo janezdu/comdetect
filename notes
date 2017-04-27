@@ -1,0 +1,30 @@
+
+# TODO
+- run matlab on fb data
+- pull up gephi image
+
+# Read
+- http://theory.stanford.edu/~nmishra/Papers/clusteringSocialNetworks.pdf
+- [Community Detection](http://stanford.edu/~manub/acad/clustering_rahul.pdf)
+    + finding individual minimum cuts
+    + based on conductance
+
+# Methods
+
+## Spectral Clustering
+- [Matlab](https://www.mathworks.com/matlabcentral/fileexchange/34412-fast-and-efficient-spectral-clustering?focused=5247896&tab=function)
+    + asdf
+- [Octave](http://strategic.mit.edu/downloads.php?page=matlab_networks)
+
+## Other
+
+- [Force Atlas](http://www.medialab.sciences-po.fr/publications/Jacomy_Heymann_Venturini-Force_Atlas2.pdf):
+    + Gephi
+    + force directed alyout: nodes repulse like magnets, edges attract nodes like springs
+    + undeterministic
+    + positions are all relative
+    + how to interpret as clusters? Assign conductance inverse to length of edge
+
+# Other Things
+- hub based clustering?
+
